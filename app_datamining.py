@@ -295,7 +295,7 @@ with tab1:
     margen_total = df_t["margin"].sum()
 
     pct_online = (
-        (df_t["canal_venta"] == "App").mean() * 100
+        (df_t["canal_venta"] == "Web").mean() * 100
     )
 
     c1, c2, c3, c4, c5, c6 = st.columns(6)
