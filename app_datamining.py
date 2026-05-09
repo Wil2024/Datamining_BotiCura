@@ -306,7 +306,7 @@ with tab1:
         (c3, f"{total_ordenes:,}", "Órdenes"),
         (c4, f"S/ {ticket_prom:.1f}", "Ticket promedio"),
         (c5, f"S/ {margen_total:,.0f}", "Margen"),
-        (c6, f"{pct_online:.1f}%", "App"),
+        (c6, f"{pct_online:.1f}%", "Web"),
     ]
 
     for col, val, label in kpis:
